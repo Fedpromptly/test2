@@ -25,9 +25,3 @@ app.on('window-all-closed', () => {
 app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
-
-🧠File.preload.js
-
-window.addEventListener('DOMContentLoaded', () => {
-  console.log('Pokejumper loaded');
-});
